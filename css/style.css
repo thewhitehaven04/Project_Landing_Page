@@ -1,0 +1,44 @@
+body {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header,
+.slider {
+  background-color: #1f2937;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__links__coloured {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.slider {
+  color: #f9faf8;
+}
+
+.collection__images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.collection__images__rounded {
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 200px;
+}
