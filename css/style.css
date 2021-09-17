@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  padding: 0 15% 0;
+  padding: 0 12% 0;
 }
 
 .header__links__coloured {
@@ -53,20 +53,20 @@ body {
   flex-direction: row;
   flex: 1 1 auto;
   justify-content: space-around;
+  align-items: center;
   background-color: var(--f1-black);
   border-radius: var(--default-border-radius);
-  padding: 70px 15% 70px;
+  padding: 70px 12% 70px;
 }
 
 .welcome__text,
 .welcome__image {
-  width: 45%;
+  width: 48%;
 }
 
 .welcome__image__horizontal {
   width: 100%;
-  height: auto;
-  object-fit: scale-down;
+  object-fit: fill;
 }
 
 .welcome__header {
@@ -89,13 +89,13 @@ body {
 }
 
 #learn-more_button {
-  background-color: #38383f;
+  background-color: #616161;
   border: 0px none;
   border-radius: 5px;
   font-weight: bold;
   font-size: 18px;
   color: white;
-  padding: 5px 1.5em;
+  padding: 8px 2em;
 }
 
 .collection {
@@ -189,10 +189,11 @@ body {
 #signup-form__button {
   background-color: var(--f1-brand-color);
   color: white;
-  border-radius: 5px;
+  border-radius: 6px;
   padding: 0.5em 2em;
-  font-size: 16px;
-  border: 2px solid white;
+  font-size: 18px;
+  font-weight: 700;
+  border: 3px solid white;
 }
 
 .footer {
