@@ -7,6 +7,12 @@ body {
 .header,
 .welcome {
   background-color: #1f2937;
+  padding: 0 15%;
+}
+
+.header__links__coloured,
+.welcome__paragraph {
+  color: #e5e7eb;
 }
 
 .header {
@@ -25,17 +31,23 @@ body {
   justify-content: space-around;
 }
 
-.welcome-text {
-  width: 48%;
+.welcome__text {
+  width: 45%;
 }
 
-.welcome-image {
-  width: 48%;
+.welcome__image {
+  width: 45%;
+}
+
+.welcome__image__horizontal {
+  height: fit-content;
+  width: auto;
 }
 
 .welcome__header {
   font-size: 48px;
   font-weight: bold;
+  color: #f9faf8;
 }
 
 .welcome__paragraph {
@@ -43,7 +55,7 @@ body {
 }
 
 #header-img {
-  width: 150px;
+  width: 100px;
   height: auto;
 }
 
@@ -66,18 +78,35 @@ body {
   color: #f9faf8;
 }
 
-.collection_images {
+.collection {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 0 24%;
+  margin-top: 40px;
+}
+
+.collection__header {
+  align-self: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.collection__images {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
+  gap: 30px;
+  margin: 40px;
 }
 
-.collection__images__rounded {
+.image__rounded {
   border: 3px solid #3882f6;
   border-radius: 15px;
-  width: 15%;
+  width: 100%;
   height: auto;
 }
