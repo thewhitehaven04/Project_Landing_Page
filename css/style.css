@@ -119,12 +119,16 @@ body {
   justify-content: center;
   flex-grow: 1;
   flex-shrink: 1;
-  gap: 30px;
+  gap: 45px;
   margin: 40px;
 }
 
 .collection__images__captioned {
   text-align: center;
+}
+
+.img__caption {
+  font-size: 18px;
 }
 
 .image__rounded {
@@ -141,7 +145,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2em;
-  border-radius: var(--default-border-radius);
 }
 
 .quotation-block__quote {
@@ -158,11 +161,43 @@ body {
 }
 
 .signup-form {
-  margin: 150px 10% 150px;
-  background-color: #15151e;
+  margin: 100px 10% 100px;
+  padding: 3em 5em;
+  background-color: var(--f1-brand-color);
   border-radius: 30px;
   color: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
+}
+
+.signup-form__text {
+  display: flex;
+  flex-direction: column;
+}
+
+#signup-form__text__header,
+#signup-form__text__caption {
+  display: inline-block;
+}
+
+#signup-form__text__header {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#signup-form__button {
+  background-color: var(--f1-brand-color);
+  color: white;
+  border-radius: 5px;
+  padding: 0.5em 2em;
+  font-size: 16px;
+  border: 2px solid white;
+}
+
+.footer {
+  color: white;
+  background-color: var(--f1-black);
+  padding: 2em 0px;
+  text-align: center;
 }
